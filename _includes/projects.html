@@ -37,14 +37,21 @@
             const projects = data.projects;
             for (let i = 0; i < projects.length; i++) {
                 console.log(projects[i]);
-
+                // populate title
                 document.getElementById('title' + (i + 1)).textContent = projects[i].title;
-                document.getElementById('tt' + (i + 1)).value += projects[i].tt;
-                document.getElementById('desc' + (i + 1)).value = projects[i].desc;
+
+                // populate source code link
                 const srcElement = document.getElementById('src' + (i + 1));
                 const srcLink = projects[i].src;
-                sourceLink.href = srcLink;
-                sourceLink.textContent = 'test'; // srcLink.substring(srcLink.indexOf('https://github.com/'));
+                srcLink.href = srcLink;
+                srcLink.textContent = 'test'; // srcLink.substring(srcLink.indexOf('https://github.com/'));
+
+                // populate tools & tech
+                const ttNode = document.createTextNode(projects[i].tt);
+                document.getElementById('tt' + (i + 1)).appendChild(ttNode);
+
+                // populate description
+                document.getElementById('desc' + (i + 1)).textContent = projects[i].desc;
             }
         });
 </script>
