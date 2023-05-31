@@ -43,8 +43,8 @@
                 // populate source code link
                 const srcElement = document.getElementById('src' + (i + 1));
                 const srcLink = projects[i].src;
-                srcLink.href = srcLink;
-                srcLink.textContent = 'test'; // srcLink.substring(srcLink.indexOf('https://github.com/'));
+                srcElement.href = srcLink;
+                srcElement.textContent = srcLink.replace('https://github.com/', '');
 
                 // populate tools & tech
                 const ttNode = document.createTextNode(projects[i].tt);
