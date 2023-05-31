@@ -6,7 +6,7 @@
     <img alt="mountains" src="{{ "/assets/img/mountains.jpg" | prepend: site.baseurl }}" />
   </div>
   <div class="contents">
-    <h3> Project Title </h3>
+    <h3 id="title1"></h3>
     <ul>
       <li> Featured Skills</li>
     </ul>
@@ -19,7 +19,7 @@
     <img alt="mountains" src="{{ "/assets/img/skate.jpg" | prepend: site.baseurl }}" />
   </div>
   <div class="contents-right">
-    <h3> Project Title </h3>
+    <h3 id="title2"></h3>
     <ul>
       <li> Featured Skills</li>
     </ul>
@@ -27,3 +27,16 @@
     <a class="project-link" href="#">Check it out</a>
   </div>
 </div>
+
+<script>
+    fetch('/assets/data/projects.json')
+        .then(response => response.json())
+        .then(data => {
+            const projects = data.projects;
+            for (let i = 0; i < projects.length; i++) {
+                const titleId = 'title' + (i + 1)
+                document.getElementById(titleId).textContent = projects[i].title;
+
+            }
+        });
+</script>
