@@ -7,12 +7,9 @@
   </div>
   <div class="contents">
     <h3 id="title1"></h3>
-    <ul>
-        <li><i> Source Code:&nbsp;</i> <a id="src1"></a></li>
-        <li id="tt1"><i> Tools & Technologies:&nbsp;</i></li>
-    </ul>
+    <p id="tt1"><i> Tools & Technologies:&nbsp;</i></p>
     <p id="desc1"></p>
-    <a class="project-link" href="#">Check it out</a>
+    <a id="src1" class="project-link" href="#">Source Code</a>
   </div>
 </div>
 <div class="user-projects">
@@ -21,12 +18,9 @@
   </div>
   <div class="contents-right">
     <h3 id="title2"></h3>
-    <ul>
-        <li><i> Source Code:&nbsp;</i> <a id="src2"></a></li>
-        <li id="tt2"><i> Tools & Technologies:&nbsp;</i></li>
-    </ul>
+    <p id="tt2"><i> Tools & Technologies:&nbsp;</i></p>
     <p id="desc2"></p>
-    <a class="project-link" href="#">Check it out</a>
+    <a id="src2" class="project-link" href="#">Source Code</a>
   </div>
 </div>
 
@@ -42,9 +36,7 @@
 
                 // populate source code link
                 const srcElement = document.getElementById('src' + (i + 1));
-                const srcLink = projects[i].src;
-                srcElement.href = srcLink;
-                srcElement.textContent = srcLink.replace('https://github.com/', '');
+                srcElement.href = projects[i].src;
 
                 // populate tools & tech
                 const ttNode = document.createTextNode(projects[i].tt);
