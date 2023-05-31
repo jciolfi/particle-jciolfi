@@ -4,12 +4,14 @@
         {
             "title": "Time is Money (Work in Progress)",
             "src": "https://github.com/jciolfi/time-is-money",
-            "tt": "TypeScript, Python, MongoDB, Uber/Lyft/MBTA/Google Maps APIs."
+            "tt": "TypeScript, Python, MongoDB, Uber/Lyft/MBTA/Google Maps APIs.",
+            "desc": "If a user can put a value on their time, they can choose the best mode of transportation considering the price and time to their destination. Let the app choose the most time and money efficient method of travel for you out of walking, uber, lyft, public transport, and city biking!"
         },
         {
             "title": "Custom Content Delivery Network",
             "src": "https://github.com/jciolfi/CDN",
-            "tt": "Python and Bash Scripting"
+            "tt": "Python and Bash Scripting",
+            "desc": "Created a small-scale content delivery network such that when the user requests content, they are directed to a replica server that provides them lower latency based on IP address geolocation."
         }
     ]
 }
