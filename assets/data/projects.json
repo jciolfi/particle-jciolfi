@@ -2,10 +2,14 @@
     "projects": 
     [
         {
-            "title": "Time is Money (Work in Progress)"
+            "title": "Time is Money (Work in Progress)",
+            "src": "https://github.com/jciolfi/time-is-money",
+            "tt": "TypeScript, Python, MongoDB, Uber/Lyft/MBTA/Google Maps APIs."
         },
         {
-            "title": "Custom Content Delivery Network"
+            "title": "Custom Content Delivery Network",
+            "src": "https://github.com/jciolfi/CDN",
+            "tt": "Python and Bash Scripting"
         }
     ]
 }
