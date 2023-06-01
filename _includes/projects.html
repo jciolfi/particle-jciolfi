@@ -75,18 +75,18 @@ fetch('/assets/data/projects.json')
       descParagraph.textContent = item.desc;
 
       // Create the source code link
-      if (item.srcCode && item.srcCode.trim() !== '') {
-          const sourceCodeLink = document.createElement('a');
-          sourceCodeLink.className = 'project-link';
-          sourceCodeLink.href = item.srcCode;
-          sourceCodeLink.textContent = 'Source Code';
-      }
+      const sourceCodeLink = document.createElement('a');
+      sourceCodeLink.className = 'project-link';
+      sourceCodeLink.href = item.srcCode;
+      sourceCodeLink.textContent = 'Source Code';
 
       // Append the title, tools and technologies paragraph, description paragraph, and source code link to the contents container
       contentsContainer.appendChild(title);
       contentsContainer.appendChild(ttParagraph);
       contentsContainer.appendChild(descParagraph);
-      contentsContainer.appendChild(sourceCodeLink);
+      if (item.srcCode && item.srcCode.trim() !== '') {
+        contentsContainer.appendChild(sourceCodeLink);
+      }
 
       // Append the right image container and contents container to the item container
       itemContainer.appendChild(imagesRightContainer);
