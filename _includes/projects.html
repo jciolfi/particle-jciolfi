@@ -5,7 +5,7 @@
 </div>
 
 
-<div class="user-projects">
+<!-- <div class="user-projects">
 <div class="images-right">
     <img alt="mountains" src="{{ "/assets/img/mountains.jpg" | prepend: site.baseurl }}" />
 </div>
@@ -27,7 +27,7 @@
     <p id="desc2"></p>
     <a id="src2" class="project-link" href="#">Source Code</a>
 </div>
-</div>
+</div> -->
 
 
 <script>
@@ -53,7 +53,7 @@ fetch('/assets/data/projects.json')
       // Create the image element
       const image = document.createElement('img');
       image.alt = 'mountains';
-      image.src = '{{ "/assets/img/mountains.jpg" | prepend: site.baseurl }}';
+      image.src = (!item.imgPath || item.imgPath.trim() === '') ? '{{ "/assets/img/mountains.jpg" | prepend: site.baseurl }}' : item.imgPath;
 
       // Append the image to the right image container
       imagesRightContainer.appendChild(image);
@@ -77,7 +77,7 @@ fetch('/assets/data/projects.json')
       // Create the source code link
       const sourceCodeLink = document.createElement('a');
       sourceCodeLink.className = 'project-link';
-      sourceCodeLink.href = item.src;
+      sourceCodeLink.href = item.srcCode;
       sourceCodeLink.textContent = 'Source Code';
 
       // Append the title, tools and technologies paragraph, description paragraph, and source code link to the contents container
@@ -98,61 +98,3 @@ fetch('/assets/data/projects.json')
     console.error('Error:', error);
   });
 </script>
-
-<!-- 
-<script>
-    fetch('/assets/data/projects.json')
-        .then(response => response.json())
-        .then(data => {
-            const projects = data.projects;
-            const container = document.getElementById('jciolfi-projects');
-
-            data.array.forEach((item, index) => {
-                const itemContainer = document.createElement('div');
-                itemContainer.className = 'user-projects';
-                
-                const imagesContainer = document.createElement('div');
-                imagesContainer.className = i % 2 == 0 ? 'images-right' : 'images-left';
-
-                const image = document.createElement('img');
-                image.alt = 'mountains';
-                image.src = '{{ "/assets/img/skate.jpg" | prepend: site.baseurl }}'
-
-                imagesContainer.appendChild(image);
-
-                const contentsContainer = document.createElement('div');
-                contentsContainer.className = 'contents';
-
-                const title = document.createElement('h3');
-                title.id = `title${index + 1};
-
-                
-            });
-            
-
-
-            projects.array.forEach(element => {
-                const elementContainer = document.createElement('div');
-                elementContainer.className = 'user-projects';
-
-                
-            });
-
-            // for (let i = 0; i < projects.length; i++) {
-            //     console.log(projects[i]);
-            //     // populate title
-            //     document.getElementById('title' + (i + 1)).textContent = projects[i].title;
-
-            //     // populate source code link
-            //     const srcElement = document.getElementById('src' + (i + 1));
-            //     srcElement.href = projects[i].src;
-
-            //     // populate tools & tech
-            //     const ttNode = document.createTextNode(projects[i].tt);
-            //     document.getElementById('tt' + (i + 1)).appendChild(ttNode);
-
-            //     // populate description
-            //     document.getElementById('desc' + (i + 1)).textContent = projects[i].desc;
-            // }
-        });
-</script> -->

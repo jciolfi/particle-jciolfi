@@ -3,15 +3,108 @@
     [
         {
             "title": "Time is Money (Work in Progress)",
-            "src": "https://github.com/jciolfi/time-is-money",
+            "imgPath": "",
+            "srcCode": "https://github.com/jciolfi/time-is-money",
             "tt": "TypeScript, Python, MongoDB, Uber/Lyft/MBTA/Google Maps APIs.",
             "desc": "If a user can put a value on their time, they can choose the best mode of transportation considering the price and time to their destination. Let the app choose the most time and money efficient method of travel for you out of walking, uber, lyft, public transport, and city biking!"
         },
         {
             "title": "Custom Content Delivery Network",
-            "src": "https://github.com/jciolfi/CDN",
+            "imgPath": "",
+            "srcCode": "https://github.com/jciolfi/CDN",
             "tt": "Python and Bash Scripting",
             "desc": "Created a small-scale content delivery network such that when the user requests content, they are directed to a replica server that provides them lower latency based on IP address geolocation."
+        },
+        {
+            "title": "Network File System",
+            "imgPath": "",
+            "srcCode": "https://github.com/jciolfi/NFS",
+            "tt": "C",
+            "desc": "Mimic cloud storage for performing CRUD operations on files from a client machine to a host machine."
+        },
+        {
+            "title": "GameChanger Baseball Statistics Scraper",
+            "imgPath": "",
+            "srcCode": "https://github.com/jciolfi/",
+            "tt": "Python, Networks, Postman",
+            "desc": "Partially automate statistics uploading from a scorekeeping app, GameChanger, to the league, the NCBA. Export a spreadsheet in the NCBA's expected format from the disparate tables stored in GameChanger."
+        },
+        {
+            "title": "End-to-end Performance Testing for Chewy.com",
+            "imgPath": "",
+            "srcCode": "",
+            "tt": "Scala, Gatling Frontline, Python, Postman, Java.",
+            "desc": "Simulate peak traffic for Black Friday and monitor services' health and availability. Exercise prescription platform APIs by simulating the complete order flow for medicine and vet diet items requiring prescriptions."
+        },
+        {
+            "title": "Raw Sockets: TCP/IP/Ethernet Protocol Re-Implementation",
+            "imgPath": "",
+            "srcCode": "https://github.com/jciolfi/raw-sockets",
+            "tt": "Python, Wireshark",
+            "desc": "Bypass the operating system network stack to implement functionality of TCP, IP, and Ethernet protocols. Downloads a file using re-implemented low-level network protocols."
+        },
+        {
+            "title": "ShapeUp Android App",
+            "imgPath": "",
+            "srcCode": "https://github.com/jciolfi/shape-up",
+            "tt": "Java, Cloud Firestore",
+            "desc": "Leverage social pressure to help users unmotivated to work out form a consistent workout routine. Act as an accountability buddy by allowing users to post, chat, form groups, and make challenges in a social-media-esque style."
+        },
+        {
+            "title": "Program Managed Heap",
+            "imgPath": "",
+            "srcCode": "https://github.com/jciolfi/pm-heap",
+            "tt": "C",
+            "desc": "Implement low-level heap structure in memory via a statically allocated region in BSS memory. Uses paged heap and demand paging strategy to swap least recently used pages to disk."
+        },
+        {
+            "title": "SimpleRecipes",
+            "imgPath": "",
+            "srcCode": "https://github.com/jciolfi/simple-recipes",
+            "tt": "MySQL, TypeScript, Postman, React",
+            "desc": "Practice full stack development by creating entire recipes hosting single page application (SPA). The front end is still in progress!"
+        },
+        {
+            "title": "Brain Hemorrhage Classifier",
+            "imgPath": "",
+            "srcCode": "https://github.com/jciolfi/CT-classification",
+            "tt": "Python, scikit-learn, TensorFlow",
+            "desc": "Compare accuracy of different machine learning models on classifying brain hemorrhages. Primarily used a convolutional neural network (CNNs) and varied loss/optimization functions, activation functions, and arrangements of layers."
+        },
+        {
+            "title": "Custom Rubiks Cube in OpenGL",
+            "imgPath": "",
+            "srcCode": "https://github.com/jciolfi/opengl-rubiks-cube",
+            "tt": "C++, OpenGL",
+            "desc": "Experiment with graphics and rendering by creating a rubix cube custom rendered with OpenGL. Provides interactivity by enabling user input, animations on cube rotations, and panning/zooming."
+        },
+        {
+            "title": "Covey.Town OAuth Authentication",
+            "imgPath": "",
+            "srcCode": "https://github.com/jciolfi/covey.town",
+            "tt": "TypeScript, Postgres, Javascript, React, Auth0",
+            "desc": "Extend virtual meeting space web application to support OAuth authentication. Record last position of user in virtual room, profile information, and media settings."
+        },
+        {
+            "title": "AI Course Modules",
+            "imgPath": "",
+            "srcCode": "https://github.com/sandboxnu/a-eye",
+            "tt": "JavaScript, Tailwind, HTML",
+            "desc": "Organize course modules for artificial intelligence course at Northeastern. Focuses on useful demos and examples, including computer vision, machine learning, classification, perceptrons, and neural networks."
+        },
+        {
+            "title": "Product Family Matching for Chewy.com",
+            "imgPath": "",
+            "srcCode": "",
+            "tt": "Java, Spring Boot, Postman",
+            "desc": "Implement a high-visibility endpoint on the prescription platform API to find all items in a product family for a given product line. Heavily utilize asynchronous code to support scalability and performance."
+        },
+        {
+            "title": "PayPal Payment Flow for Blueport Commerce",
+            "imgPath": "",
+            "srcCode": "https://github.com/",
+            "tt": "C#, Postman, Postgres, PayPal API",
+            "desc": "Architect backend payment flow in payment microservice for retailers supporting PayPal via the PayPal API. Provide full payment functionality, including but not limited to authorizing, voiding, and capturing payments."
         }
     ]
 }
