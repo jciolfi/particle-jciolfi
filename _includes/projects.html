@@ -49,6 +49,7 @@ fetch('/assets/data/projects.json')
 
       // Create the source code link
       const sourceCodeLink = document.createElement('a');
+      sourceCodeLink.target = '_blank';
       sourceCodeLink.className = 'project-link';
       sourceCodeLink.href = item.srcCode;
       sourceCodeLink.textContent = 'Source Code';
