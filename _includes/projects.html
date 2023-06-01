@@ -1,9 +1,6 @@
 <div class="user-details">
   <h1> Featured Projects </h1>
 </div>
-<div id="jciolfi-projects">
-</div>
-
 
 <!-- <div class="user-projects">
 <div class="images-right">
@@ -36,7 +33,7 @@ fetch('/assets/data/projects.json')
   .then(response => response.json())
   .then(data => {
     // Create a new container element
-    const container = document.getElementById('jciolfi-projects');
+    const section = document.getElementById('projects');
 
     const projects = data.projects;
 
@@ -93,7 +90,7 @@ fetch('/assets/data/projects.json')
       itemContainer.appendChild(contentsContainer);
 
       // Append the item container to the dynamic container
-      container.appendChild(itemContainer);
+      section.appendChild(itemContainer);
     });
   })
   .catch(error => {
