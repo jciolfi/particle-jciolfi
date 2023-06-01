@@ -20,7 +20,7 @@
             "imgPath": "",
             "srcCode": "https://github.com/jciolfi/NFS",
             "tt": "C",
-            "desc": "Mimic cloud storage for performing CRUD operations on files from a client machine to a host machine."
+            "desc": "Mimic a public cloud storage filesystem by providing a command line interface for performing CRUD operations on files from a client machine to a host machine. Supports multiple client connections by encapsulating each connection in a thread."
         },
         {
             "title": "GameChanger Baseball Statistics Scraper",
@@ -102,7 +102,7 @@
         {
             "title": "PayPal Payment Flow for Blueport Commerce",
             "imgPath": "",
-            "srcCode": "https://github.com/",
+            "srcCode": "",
             "tt": "C#, Postman, Postgres, PayPal API",
             "desc": "Architect backend payment flow in payment microservice for retailers supporting PayPal via the PayPal API. Provide full payment functionality, including but not limited to authorizing, voiding, and capturing payments."
         }
