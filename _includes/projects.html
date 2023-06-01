@@ -4,18 +4,19 @@
 <div id="jciolfi-projects">
 </div>
 
-<!--
+
 <div class="user-projects">
 <div class="images-right">
     <img alt="mountains" src="{{ "/assets/img/mountains.jpg" | prepend: site.baseurl }}" />
 </div>
-<div class="contents">
+<div class="contents-left">
     <h3 id="title1"></h3>
     <p id="tt1"><i> Tools & Technologies:&nbsp;</i></p>
     <p id="desc1"></p>
     <a id="src1" class="project-link" href="#">Source Code</a>
 </div>
 </div>
+
 <div class="user-projects">
 <div class="images-left">
     <img alt="mountains" src="{{ "/assets/img/skate.jpg" | prepend: site.baseurl }}" />
@@ -27,7 +28,6 @@
     <a id="src2" class="project-link" href="#">Source Code</a>
 </div>
 </div>
--->
 
 
 <script>
@@ -60,7 +60,7 @@ fetch('/assets/data/projects.json')
 
       // Create the contents container
       const contentsContainer = document.createElement('div');
-      contentsContainer.className = 'contents';
+      contentsContainer.className = index % 2 == 0 ? 'contents' : 'contents-right';
 
       // Create the title element
       const title = document.createElement('h3');
