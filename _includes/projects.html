@@ -38,8 +38,10 @@ fetch('/assets/data/projects.json')
     // Create a new container element
     const container = document.getElementById('jciolfi-projects');
 
+    const projects = data.projects;
+
     // Iterate over each item in the JSON data
-    data.forEach((item, index) => {
+    projects.forEach((item, index) => {
       // Create a new item container
       const itemContainer = document.createElement('div');
       itemContainer.className = 'user-projects';
