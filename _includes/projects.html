@@ -60,7 +60,7 @@ fetch('/assets/data/projects.json')
 
       // Create the contents container
       const contentsContainer = document.createElement('div');
-      contentsContainer.className = index % 2 == 0 ? 'contents' : 'contents-right';
+      contentsContainer.className = index % 2 == 0 ? 'contents-left' : 'contents-right';
 
       // Create the title element
       const title = document.createElement('h3');
@@ -75,10 +75,12 @@ fetch('/assets/data/projects.json')
       descParagraph.textContent = item.desc;
 
       // Create the source code link
-      const sourceCodeLink = document.createElement('a');
-      sourceCodeLink.className = 'project-link';
-      sourceCodeLink.href = item.srcCode;
-      sourceCodeLink.textContent = 'Source Code';
+      if (item.srcCode && item.srcCode.trim() !== '') {
+          const sourceCodeLink = document.createElement('a');
+          sourceCodeLink.className = 'project-link';
+          sourceCodeLink.href = item.srcCode;
+          sourceCodeLink.textContent = 'Source Code';
+      }
 
       // Append the title, tools and technologies paragraph, description paragraph, and source code link to the contents container
       contentsContainer.appendChild(title);

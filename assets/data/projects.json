@@ -25,7 +25,7 @@
         {
             "title": "GameChanger Baseball Statistics Scraper",
             "imgPath": "",
-            "srcCode": "https://github.com/jciolfi/",
+            "srcCode": "https://github.com/jciolfi/gc-stats-scraper",
             "tt": "Python, Networks, Postman",
             "desc": "Partially automate statistics uploading from a scorekeeping app, GameChanger, to the league, the NCBA. Export a spreadsheet in the NCBA's expected format from the disparate tables stored in GameChanger."
         },
