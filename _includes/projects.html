@@ -48,7 +48,7 @@ fetch('/assets/data/projects.json')
 
       // Create the right image container
       const imagesRightContainer = document.createElement('div');
-      imagesRightContainer.className = 'images-right';
+      imagesRightContainer.className = index % 2 == 0 ? 'images-right' : 'images-left';
 
       // Create the image element
       const image = document.createElement('img');
@@ -64,22 +64,20 @@ fetch('/assets/data/projects.json')
 
       // Create the title element
       const title = document.createElement('h3');
-      title.id = `title${index + 1}`;
+      title.textContent = item.title;
 
       // Create the tools and technologies paragraph
       const ttParagraph = document.createElement('p');
-      ttParagraph.id = `tt${index + 1}`;
-      ttParagraph.innerHTML = '<i>Tools & Technologies:&nbsp;</i>';
+      ttParagraph.innerHTML = '<i>Tools & Technologies:&nbsp;</i>' + item.tt;
 
       // Create the description paragraph
       const descParagraph = document.createElement('p');
-      descParagraph.id = `desc${index + 1}`;
+      descParagraph.textContent = item.desc;
 
       // Create the source code link
       const sourceCodeLink = document.createElement('a');
-      sourceCodeLink.id = `src${index + 1}`;
       sourceCodeLink.className = 'project-link';
-      sourceCodeLink.href = '#';
+      sourceCodeLink.href = item.src;
       sourceCodeLink.textContent = 'Source Code';
 
       // Append the title, tools and technologies paragraph, description paragraph, and source code link to the contents container
