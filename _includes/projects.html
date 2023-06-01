@@ -1,49 +1,158 @@
 <div class="user-details">
   <h1> Featured Projects </h1>
 </div>
+<div class="jciolfi-projects">
+</div>
+
+<!--
 <div class="user-projects">
-  <div class="images-right">
+<div class="images-right">
     <img alt="mountains" src="{{ "/assets/img/mountains.jpg" | prepend: site.baseurl }}" />
-  </div>
-  <div class="contents">
+</div>
+<div class="contents">
     <h3 id="title1"></h3>
     <p id="tt1"><i> Tools & Technologies:&nbsp;</i></p>
     <p id="desc1"></p>
     <a id="src1" class="project-link" href="#">Source Code</a>
-  </div>
+</div>
 </div>
 <div class="user-projects">
-  <div class="images-left">
+<div class="images-left">
     <img alt="mountains" src="{{ "/assets/img/skate.jpg" | prepend: site.baseurl }}" />
-  </div>
-  <div class="contents-right">
+</div>
+<div class="contents-right">
     <h3 id="title2"></h3>
     <p id="tt2"><i> Tools & Technologies:&nbsp;</i></p>
     <p id="desc2"></p>
     <a id="src2" class="project-link" href="#">Source Code</a>
-  </div>
 </div>
+</div>
+-->
 
+
+<script>
+// Fetch the JSON file
+fetch('/assets/data/projects.json')
+  .then(response => response.json())
+  .then(data => {
+    // Create a new container element
+    const container = document.getElementById('jciolfi-projects');
+
+    // Iterate over each item in the JSON data
+    data.forEach((item, index) => {
+      // Create a new item container
+      const itemContainer = document.createElement('div');
+      itemContainer.className = 'user-projects';
+
+      // Create the right image container
+      const imagesRightContainer = document.createElement('div');
+      imagesRightContainer.className = 'images-right';
+
+      // Create the image element
+      const image = document.createElement('img');
+      image.alt = 'mountains';
+      image.src = '{{ "/assets/img/mountains.jpg" | prepend: site.baseurl }}';
+
+      // Append the image to the right image container
+      imagesRightContainer.appendChild(image);
+
+      // Create the contents container
+      const contentsContainer = document.createElement('div');
+      contentsContainer.className = 'contents';
+
+      // Create the title element
+      const title = document.createElement('h3');
+      title.id = `title${index + 1}`;
+
+      // Create the tools and technologies paragraph
+      const ttParagraph = document.createElement('p');
+      ttParagraph.id = `tt${index + 1}`;
+      ttParagraph.innerHTML = '<i>Tools & Technologies:&nbsp;</i>';
+
+      // Create the description paragraph
+      const descParagraph = document.createElement('p');
+      descParagraph.id = `desc${index + 1}`;
+
+      // Create the source code link
+      const sourceCodeLink = document.createElement('a');
+      sourceCodeLink.id = `src${index + 1}`;
+      sourceCodeLink.className = 'project-link';
+      sourceCodeLink.href = '#';
+      sourceCodeLink.textContent = 'Source Code';
+
+      // Append the title, tools and technologies paragraph, description paragraph, and source code link to the contents container
+      contentsContainer.appendChild(title);
+      contentsContainer.appendChild(ttParagraph);
+      contentsContainer.appendChild(descParagraph);
+      contentsContainer.appendChild(sourceCodeLink);
+
+      // Append the right image container and contents container to the item container
+      itemContainer.appendChild(imagesRightContainer);
+      itemContainer.appendChild(contentsContainer);
+
+      // Append the item container to the dynamic container
+      container.appendChild(itemContainer);
+    });
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
+</script>
+
+<!-- 
 <script>
     fetch('/assets/data/projects.json')
         .then(response => response.json())
         .then(data => {
             const projects = data.projects;
-            for (let i = 0; i < projects.length; i++) {
-                console.log(projects[i]);
-                // populate title
-                document.getElementById('title' + (i + 1)).textContent = projects[i].title;
+            const container = document.getElementById('jciolfi-projects');
 
-                // populate source code link
-                const srcElement = document.getElementById('src' + (i + 1));
-                srcElement.href = projects[i].src;
+            data.array.forEach((item, index) => {
+                const itemContainer = document.createElement('div');
+                itemContainer.className = 'user-projects';
+                
+                const imagesContainer = document.createElement('div');
+                imagesContainer.className = i % 2 == 0 ? 'images-right' : 'images-left';
 
-                // populate tools & tech
-                const ttNode = document.createTextNode(projects[i].tt);
-                document.getElementById('tt' + (i + 1)).appendChild(ttNode);
+                const image = document.createElement('img');
+                image.alt = 'mountains';
+                image.src = '{{ "/assets/img/skate.jpg" | prepend: site.baseurl }}'
 
-                // populate description
-                document.getElementById('desc' + (i + 1)).textContent = projects[i].desc;
-            }
+                imagesContainer.appendChild(image);
+
+                const contentsContainer = document.createElement('div');
+                contentsContainer.className = 'contents';
+
+                const title = document.createElement('h3');
+                title.id = `title${index + 1};
+
+                
+            });
+            
+
+
+            projects.array.forEach(element => {
+                const elementContainer = document.createElement('div');
+                elementContainer.className = 'user-projects';
+
+                
+            });
+
+            // for (let i = 0; i < projects.length; i++) {
+            //     console.log(projects[i]);
+            //     // populate title
+            //     document.getElementById('title' + (i + 1)).textContent = projects[i].title;
+
+            //     // populate source code link
+            //     const srcElement = document.getElementById('src' + (i + 1));
+            //     srcElement.href = projects[i].src;
+
+            //     // populate tools & tech
+            //     const ttNode = document.createTextNode(projects[i].tt);
+            //     document.getElementById('tt' + (i + 1)).appendChild(ttNode);
+
+            //     // populate description
+            //     document.getElementById('desc' + (i + 1)).textContent = projects[i].desc;
+            // }
         });
-</script>
+</script> -->
