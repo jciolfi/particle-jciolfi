@@ -3,21 +3,21 @@
     [
         {
             "title": "Time is Money (Work in Progress)",
-            "imgPath": "",
+            "imgPath": "/assets/img/transport.png",
             "srcCode": "https://github.com/jciolfi/time-is-money",
             "tt": "TypeScript, Python, MongoDB, Uber/Lyft/MBTA/Google Maps APIs.",
             "desc": "If a user can put a value on their time, they can choose the best mode of transportation considering the price and time to their destination. Let the app choose the most time and money efficient method of travel for you out of walking, uber, lyft, public transport, and city biking!"
         },
         {
             "title": "Custom Content Delivery Network",
-            "imgPath": "",
+            "imgPath": "/assets/img/CDN.png",
             "srcCode": "https://github.com/jciolfi/CDN",
             "tt": "Python and Bash Scripting",
             "desc": "Created a small-scale content delivery network such that when the user requests content, they are directed to a replica server that provides them lower latency based on IP address geolocation."
         },
         {
             "title": "Network File System",
-            "imgPath": "",
+            "imgPath": "/assets/img/NFS.png",
             "srcCode": "https://github.com/jciolfi/NFS",
             "tt": "C",
             "desc": "Mimic a public cloud storage filesystem by providing a command line interface for performing CRUD operations on files from a client machine to a host machine. Supports multiple client connections by encapsulating each connection in a thread."
