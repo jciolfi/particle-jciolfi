@@ -24,14 +24,14 @@
         },
         {
             "title": "GameChanger Baseball Statistics Scraper",
-            "imgPath": "/assets/img/gamechanger.jpg",
+            "imgPath": "/assets/img/jersey.jpg",
             "srcCode": "https://github.com/jciolfi/gc-stats-scraper",
             "tt": "Python, Networks, Postman",
             "desc": "Partially automate statistics uploading from a scorekeeping app, GameChanger, to the league, the NCBA. Export a spreadsheet in the NCBA's expected format from the disparate tables stored in GameChanger."
         },
         {
             "title": "End-to-end Performance Testing for Chewy.com",
-            "imgPath": "/assets/img/gatling.png",
+            "imgPath": "/assets/img/performance_testing.jpg",
             "srcCode": "",
             "tt": "Scala, Gatling Frontline, Python, Postman, Java.",
             "desc": "Simulate peak traffic and monitor services' health and availability. Exercise APIs by simulating end-to-end order flow for items requiring prescriptions. Disclaimer: the image to the right is not actually Chewy traffic, but the same platform used (Gatling Frontline)."
@@ -45,7 +45,7 @@
         },
         {
             "title": "ShapeUp Android App",
-            "imgPath": "/assets/img/shapeup.png",
+            "imgPath": "/assets/img/workout.png",
             "srcCode": "https://github.com/jciolfi/shape-up",
             "tt": "Java, Cloud Firestore",
             "desc": "Leverage social pressure to help users unmotivated to work out form a consistent workout routine. Act as an accountability buddy by allowing users to post, chat, form groups, and make challenges in a social-media-esque style."
@@ -87,14 +87,14 @@
         },
         {
             "title": "AI Course Modules",
-            "imgPath": "/assets/img/aeye.png",
+            "imgPath": "/assets/img/kernel.png",
             "srcCode": "https://github.com/sandboxnu/a-eye",
             "tt": "JavaScript, Tailwind, HTML",
             "desc": "Organize course modules for artificial intelligence course at Northeastern. Focuses on useful demos and examples, including computer vision, machine learning, classification, perceptrons, and neural networks."
         },
         {
             "title": "Product Family Matching for Chewy.com",
-            "imgPath": "/assets/img/vet_diet.png",
+            "imgPath": "/assets/img/chewy_rx.jpg",
             "srcCode": "",
             "tt": "Java, Spring Boot, Postman",
             "desc": "Implement a high-visibility endpoint on the prescription platform API to find all items in a product family for a given product line. Heavily utilize asynchronous code to support scalability and performance."
