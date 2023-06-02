@@ -104,7 +104,7 @@
             "imgPath": "/assets/img/paypal.png",
             "srcCode": "",
             "tt": "C#, Postman, Postgres, PayPal API",
-            "desc": "Architect backend payment flow in payment microservice for retailers supporting PayPal via the PayPal API. Provide full payment functionality, including but not limited to authorizing, voiding, and capturing payments."
+            "desc": "Architect back-end payment flow in payment microservice for retailers supporting PayPal via the PayPal API. Provide full payment functionality, including but not limited to authorizing, voiding, and capturing payments."
         }
     ]
 }
