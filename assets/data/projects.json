@@ -24,7 +24,7 @@
         },
         {
             "title": "GameChanger Baseball Statistics Scraper",
-            "imgPath": "/assets/img/jersey.jpg",
+            "imgPath": "/assets/img/gamechanger.jpg",
             "srcCode": "https://github.com/jciolfi/gc-stats-scraper",
             "tt": "Python, Networks, Postman",
             "desc": "Partially automate statistics uploading from a scorekeeping app, GameChanger, to the league, the NCBA. Export a spreadsheet in the NCBA's expected format from the disparate tables stored in GameChanger."
@@ -45,7 +45,7 @@
         },
         {
             "title": "ShapeUp Android App",
-            "imgPath": "/assets/img/workout.png",
+            "imgPath": "/assets/img/shapeup.png",
             "srcCode": "https://github.com/jciolfi/shape-up",
             "tt": "Java, Cloud Firestore",
             "desc": "Leverage social pressure to help users unmotivated to work out form a consistent workout routine. Act as an accountability buddy by allowing users to post, chat, form groups, and make challenges in a social-media-esque style."
