@@ -24,35 +24,35 @@
         },
         {
             "title": "GameChanger Baseball Statistics Scraper",
-            "imgPath": "",
+            "imgPath": "/assets/img/gamechanger.jpg",
             "srcCode": "https://github.com/jciolfi/gc-stats-scraper",
             "tt": "Python, Networks, Postman",
             "desc": "Partially automate statistics uploading from a scorekeeping app, GameChanger, to the league, the NCBA. Export a spreadsheet in the NCBA's expected format from the disparate tables stored in GameChanger."
         },
         {
             "title": "End-to-end Performance Testing for Chewy.com",
-            "imgPath": "",
+            "imgPath": "/assets/img/gatling.png",
             "srcCode": "",
             "tt": "Scala, Gatling Frontline, Python, Postman, Java.",
-            "desc": "Simulate peak traffic for Black Friday and monitor services' health and availability. Exercise prescription platform APIs by simulating the complete order flow for medicine and vet diet items requiring prescriptions."
+            "desc": "Simulate peak traffic and monitor services' health and availability. Exercise APIs by simulating end-to-end order flow for items requiring prescriptions. Disclaimer: the image to the right is not actually Chewy traffic, but the same platform used (Gatling Frontline)."
         },
         {
             "title": "Raw Sockets: TCP/IP/Ethernet Protocol Re-Implementation",
-            "imgPath": "",
+            "imgPath": "/assets/img/network.png",
             "srcCode": "https://github.com/jciolfi/raw-sockets",
             "tt": "Python, Wireshark",
             "desc": "Bypass the operating system network stack to implement functionality of TCP, IP, and Ethernet protocols. Downloads a file using re-implemented low-level network protocols."
         },
         {
             "title": "ShapeUp Android App",
-            "imgPath": "",
+            "imgPath": "/assets/img/shapeup.png",
             "srcCode": "https://github.com/jciolfi/shape-up",
             "tt": "Java, Cloud Firestore",
             "desc": "Leverage social pressure to help users unmotivated to work out form a consistent workout routine. Act as an accountability buddy by allowing users to post, chat, form groups, and make challenges in a social-media-esque style."
         },
         {
             "title": "Program Managed Heap",
-            "imgPath": "",
+            "imgPath": "/assets/img/paging.jpg",
             "srcCode": "https://github.com/jciolfi/pm-heap",
             "tt": "C",
             "desc": "Implement low-level heap structure in memory via a statically allocated region in BSS memory. Uses paged heap and demand paging strategy to swap least recently used pages to disk."
@@ -66,42 +66,42 @@
         },
         {
             "title": "Brain Hemorrhage Classifier",
-            "imgPath": "",
+            "imgPath": "/assets/img/classifier.png",
             "srcCode": "https://github.com/jciolfi/CT-classification",
             "tt": "Python, scikit-learn, TensorFlow",
             "desc": "Compare accuracy of different machine learning models on classifying brain hemorrhages. Primarily used a convolutional neural network (CNNs) and varied loss/optimization functions, activation functions, and arrangements of layers."
         },
         {
             "title": "Custom Rubiks Cube in OpenGL",
-            "imgPath": "",
+            "imgPath": "/assets/img/rubiks.png",
             "srcCode": "https://github.com/jciolfi/opengl-rubiks-cube",
             "tt": "C++, OpenGL",
             "desc": "Experiment with graphics and rendering by creating a rubix cube custom rendered with OpenGL. Provides interactivity by enabling user input, animations on cube rotations, and panning/zooming."
         },
         {
             "title": "Covey.Town OAuth Authentication",
-            "imgPath": "",
+            "imgPath": "/assets/img/covey.png",
             "srcCode": "https://github.com/jciolfi/covey.town",
             "tt": "TypeScript, Postgres, Javascript, React, Auth0",
             "desc": "Extend virtual meeting space web application to support OAuth authentication. Record last position of user in virtual room, profile information, and media settings."
         },
         {
             "title": "AI Course Modules",
-            "imgPath": "",
+            "imgPath": "/assets/img/aeye.png",
             "srcCode": "https://github.com/sandboxnu/a-eye",
             "tt": "JavaScript, Tailwind, HTML",
             "desc": "Organize course modules for artificial intelligence course at Northeastern. Focuses on useful demos and examples, including computer vision, machine learning, classification, perceptrons, and neural networks."
         },
         {
             "title": "Product Family Matching for Chewy.com",
-            "imgPath": "",
+            "imgPath": "/assets/img/vet_diet.png",
             "srcCode": "",
             "tt": "Java, Spring Boot, Postman",
             "desc": "Implement a high-visibility endpoint on the prescription platform API to find all items in a product family for a given product line. Heavily utilize asynchronous code to support scalability and performance."
         },
         {
             "title": "PayPal Payment Flow for Blueport Commerce",
-            "imgPath": "",
+            "imgPath": "/assets/img/paypal.png",
             "srcCode": "",
             "tt": "C#, Postman, Postgres, PayPal API",
             "desc": "Architect backend payment flow in payment microservice for retailers supporting PayPal via the PayPal API. Provide full payment functionality, including but not limited to authorizing, voiding, and capturing payments."

@@ -25,8 +25,8 @@ fetch('/assets/data/projects.json')
 
       // Create the image element
       const image = document.createElement('img');
-      image.alt = 'mountains';
-      image.src = (!item.imgPath || item.imgPath.trim() === '') ? '{{ "/assets/img/mountains.jpg" | prepend: site.baseurl }}' : item.imgPath;
+      image.alt = 'project image';
+      image.src = (!item.imgPath || item.imgPath.trim() === '') ? '{{ "/assets/img/placeholder.jpg" | prepend: site.baseurl }}' : item.imgPath;
 
       // Append the image to the right image container
       imagesRightContainer.appendChild(image);
