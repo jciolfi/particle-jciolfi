@@ -10,7 +10,7 @@
         },
         {
             "title": "Custom Content Delivery Network",
-            "imgPath": "/assets/img/CDN.png",
+            "imgPath": "/assets/img/CDN_3.png",
             "srcCode": "https://github.com/jciolfi/CDN",
             "tt": "Python and Bash Scripting",
             "desc": "Created a small-scale content delivery network such that when the user requests content, they are directed to a replica server that provides them lower latency based on IP address geolocation."
@@ -52,7 +52,7 @@
         },
         {
             "title": "Program Managed Heap",
-            "imgPath": "/assets/img/paging.jpg",
+            "imgPath": "/assets/img/pm_heap.png",
             "srcCode": "https://github.com/jciolfi/pm-heap",
             "tt": "C",
             "desc": "Implement low-level heap structure in memory via a statically allocated region in BSS memory. Uses paged heap and demand paging strategy to swap least recently used pages to disk."
