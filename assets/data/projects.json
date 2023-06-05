@@ -31,7 +31,7 @@
         },
         {
             "title": "End-to-end Performance Testing for Chewy.com",
-            "imgPath": "/assets/img/performance_testing.jpg",
+            "imgPath": "/assets/img/load_testing.png",
             "srcCode": "",
             "tt": "Scala, Gatling Frontline, Python, Postman, Java.",
             "desc": "Simulate peak traffic and monitor services' health and availability. Exercise APIs by simulating end-to-end order flow for items requiring prescriptions. Disclaimer: the image to the right is not actually Chewy traffic, but the same platform used (Gatling Frontline)."
