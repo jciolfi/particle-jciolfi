@@ -38,7 +38,7 @@
         },
         {
             "title": "Raw Sockets: TCP/IP/Ethernet Protocol Re-Implementation",
-            "imgPath": "/assets/img/network.png",
+            "imgPath": "/assets/img/network_2.png",
             "srcCode": "https://github.com/jciolfi/raw-sockets",
             "tt": "Python, Wireshark",
             "desc": "Bypass the operating system network stack to implement functionality of TCP, IP, and Ethernet protocols. Downloads a file using re-implemented low-level network protocols."
