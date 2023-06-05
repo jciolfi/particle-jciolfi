@@ -10,7 +10,7 @@
         },
         {
             "title": "Custom Content Delivery Network",
-            "imgPath": "/assets/img/CDN.png",
+            "imgPath": "/assets/img/CDN_2.png",
             "srcCode": "https://github.com/jciolfi/CDN",
             "tt": "Python and Bash Scripting",
             "desc": "Created a small-scale content delivery network such that when the user requests content, they are directed to a replica server that provides them lower latency based on IP address geolocation."
