@@ -3,63 +3,63 @@
     [
         {
             "title": "Time is Money (Work in Progress)",
-            "imgPath": "/assets/img/time_is_money.png",
+            "imgPath": "/assets/img/720p/time_is_money.png",
             "srcCode": "",
             "tt": "TypeScript, Python, MongoDB, Uber/Lyft/MBTA/Google Maps APIs.",
             "desc": "If a user can put a value on their time, they can choose the best mode of transportation considering the price and time to their destination. Let the app choose the most time and money efficient method of travel for you out of walking, uber, lyft, public transport, and city biking!"
         },
         {
             "title": "Custom Content Delivery Network",
-            "imgPath": "/assets/img/CDN_3.png",
+            "imgPath": "/assets/img/720p/CDN.png",
             "srcCode": "https://github.com/jciolfi/CDN",
             "tt": "Python and Bash Scripting",
             "desc": "Created a small-scale content delivery network such that when the user requests content, they are directed to a replica server that provides them lower latency based on IP address geolocation."
         },
         {
             "title": "Network File System",
-            "imgPath": "/assets/img/NFS_2.png",
+            "imgPath": "/assets/img/720p/NFS.png",
             "srcCode": "https://github.com/jciolfi/NFS",
             "tt": "C",
             "desc": "Mimic a public cloud storage filesystem by providing a command line interface for performing CRUD operations on files from a client machine to a host machine. Supports multiple client connections by encapsulating each connection in a thread."
         },
         {
             "title": "GameChanger Baseball Statistics Scraper",
-            "imgPath": "/assets/img/baseball.png",
+            "imgPath": "/assets/img/720p/baseball.png",
             "srcCode": "https://github.com/jciolfi/gc-stats-scraper",
             "tt": "Python, Networks, Postman",
             "desc": "Partially automate statistics uploading from a scorekeeping app, GameChanger, to the league, the NCBA. Export a spreadsheet in the NCBA's expected format from the disparate tables stored in GameChanger."
         },
         {
             "title": "End-to-end Performance Testing for Chewy.com",
-            "imgPath": "/assets/img/load_testing.png",
+            "imgPath": "/assets/img/720p/load_testing.png",
             "srcCode": "",
             "tt": "Scala, Gatling Frontline, Python, Postman, Java.",
             "desc": "Simulate peak traffic and monitor services' health and availability. Exercise APIs by simulating end-to-end order flow for items requiring prescriptions. Disclaimer: the image to the right is not actually Chewy traffic, but the same platform used (Gatling Frontline)."
         },
         {
             "title": "Raw Sockets: TCP/IP/Ethernet Protocol Re-Implementation",
-            "imgPath": "/assets/img/network_2.png",
+            "imgPath": "/assets/img/720p/network.png",
             "srcCode": "https://github.com/jciolfi/raw-sockets",
             "tt": "Python, Wireshark",
             "desc": "Bypass the operating system network stack to implement functionality of TCP, IP, and Ethernet protocols. Downloads a file using re-implemented low-level network protocols."
         },
         {
             "title": "ShapeUp Android App",
-            "imgPath": "/assets/img/shapeup_2.png",
+            "imgPath": "/assets/img/720p/shapeup.png",
             "srcCode": "https://github.com/jciolfi/shape-up",
             "tt": "Java, Cloud Firestore",
             "desc": "Leverage social pressure to help users unmotivated to work out form a consistent workout routine. Act as an accountability buddy by allowing users to post, chat, form groups, and make challenges in a social-media-esque style."
         },
         {
             "title": "Program Managed Heap",
-            "imgPath": "/assets/img/pm_heap.png",
+            "imgPath": "/assets/img/720p/pm_heap.png",
             "srcCode": "https://github.com/jciolfi/pm-heap",
             "tt": "C",
             "desc": "Implement low-level heap structure in memory via a statically allocated region in BSS memory. Uses paged heap and demand paging strategy to swap least recently used pages to disk."
         },
         {
             "title": "SimpleRecipes",
-            "imgPath": "/assets/img/recipes.png",
+            "imgPath": "/assets/img/720p/recipes.png",
             "srcCode": "https://github.com/jciolfi/simple-recipes",
             "tt": "MySQL, TypeScript, Postman, React",
             "desc": "Practice full stack development by creating entire recipes hosting single page application (SPA). The front end is still in progress!"
