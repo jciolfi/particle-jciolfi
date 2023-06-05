@@ -4,7 +4,7 @@
         {
             "title": "Time is Money (Work in Progress)",
             "imgPath": "/assets/img/time_is_money.png",
-            "srcCode": "https://github.com/jciolfi/time-is-money",
+            "srcCode": "",
             "tt": "TypeScript, Python, MongoDB, Uber/Lyft/MBTA/Google Maps APIs.",
             "desc": "If a user can put a value on their time, they can choose the best mode of transportation considering the price and time to their destination. Let the app choose the most time and money efficient method of travel for you out of walking, uber, lyft, public transport, and city biking!"
         },
@@ -72,20 +72,6 @@
             "desc": "Compare accuracy of different machine learning models on classifying brain hemorrhages. Primarily used a convolutional neural network (CNNs) and varied loss/optimization functions, activation functions, and arrangements of layers."
         },
         {
-            "title": "Custom Rubiks Cube in OpenGL",
-            "imgPath": "/assets/img/rubiks.png",
-            "srcCode": "https://github.com/jciolfi/opengl-rubiks-cube",
-            "tt": "C++, OpenGL",
-            "desc": "Experiment with graphics and rendering by creating a rubix cube custom rendered with OpenGL. Provides interactivity by enabling user input, animations on cube rotations, and panning/zooming."
-        },
-        {
-            "title": "Covey.Town OAuth Authentication",
-            "imgPath": "/assets/img/covey.png",
-            "srcCode": "https://github.com/jciolfi/covey.town",
-            "tt": "TypeScript, Postgres, Javascript, React, Auth0",
-            "desc": "Extend virtual meeting space web application to support OAuth authentication. Record last position of user in virtual room, profile information, and media settings."
-        },
-        {
             "title": "AI Course Modules",
             "imgPath": "/assets/img/kernel.png",
             "srcCode": "https://github.com/sandboxnu/a-eye",
@@ -105,6 +91,20 @@
             "srcCode": "",
             "tt": "C#, Postman, Postgres, PayPal API",
             "desc": "Architect back-end payment flow in payment microservice for retailers supporting PayPal via the PayPal API. Provide full payment functionality, including but not limited to authorizing, voiding, and capturing payments."
+        },
+        {
+            "title": "Custom Rubiks Cube in OpenGL",
+            "imgPath": "/assets/img/rubiks.png",
+            "srcCode": "https://github.com/jciolfi/opengl-rubiks-cube",
+            "tt": "C++, OpenGL",
+            "desc": "Experiment with graphics and rendering by creating a rubix cube custom rendered with OpenGL. Provides interactivity by enabling user input, animations on cube rotations, and panning/zooming."
+        },
+        {
+            "title": "Covey.Town OAuth Authentication",
+            "imgPath": "/assets/img/covey.png",
+            "srcCode": "https://github.com/jciolfi/covey.town",
+            "tt": "TypeScript, Postgres, Javascript, React, Auth0",
+            "desc": "Extend virtual meeting space web application to support OAuth authentication. Record last position of user in virtual room, profile information, and media settings."
         }
     ]
 }
