@@ -17,7 +17,7 @@
         },
         {
             "title": "Network File System",
-            "imgPath": "/assets/img/NFS.png",
+            "imgPath": "/assets/img/NFS_2.png",
             "srcCode": "https://github.com/jciolfi/NFS",
             "tt": "C",
             "desc": "Mimic a public cloud storage filesystem by providing a command line interface for performing CRUD operations on files from a client machine to a host machine. Supports multiple client connections by encapsulating each connection in a thread."
