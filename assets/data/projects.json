@@ -45,7 +45,7 @@
         },
         {
             "title": "ShapeUp Android App",
-            "imgPath": "/assets/img/shapeup.png",
+            "imgPath": "/assets/img/shapeup_2.png",
             "srcCode": "https://github.com/jciolfi/shape-up",
             "tt": "Java, Cloud Firestore",
             "desc": "Leverage social pressure to help users unmotivated to work out form a consistent workout routine. Act as an accountability buddy by allowing users to post, chat, form groups, and make challenges in a social-media-esque style."
@@ -59,7 +59,7 @@
         },
         {
             "title": "SimpleRecipes",
-            "imgPath": "",
+            "imgPath": "/assets/img/recipes.png",
             "srcCode": "https://github.com/jciolfi/simple-recipes",
             "tt": "MySQL, TypeScript, Postman, React",
             "desc": "Practice full stack development by creating entire recipes hosting single page application (SPA). The front end is still in progress!"
