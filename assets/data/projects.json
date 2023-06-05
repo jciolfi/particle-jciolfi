@@ -3,7 +3,7 @@
     [
         {
             "title": "Time is Money (Work in Progress)",
-            "imgPath": "/assets/img/transport.png",
+            "imgPath": "/assets/img/time_is_money.png",
             "srcCode": "https://github.com/jciolfi/time-is-money",
             "tt": "TypeScript, Python, MongoDB, Uber/Lyft/MBTA/Google Maps APIs.",
             "desc": "If a user can put a value on their time, they can choose the best mode of transportation considering the price and time to their destination. Let the app choose the most time and money efficient method of travel for you out of walking, uber, lyft, public transport, and city biking!"
@@ -24,7 +24,7 @@
         },
         {
             "title": "GameChanger Baseball Statistics Scraper",
-            "imgPath": "/assets/img/gamechanger.jpg",
+            "imgPath": "/assets/img/baseball.png",
             "srcCode": "https://github.com/jciolfi/gc-stats-scraper",
             "tt": "Python, Networks, Postman",
             "desc": "Partially automate statistics uploading from a scorekeeping app, GameChanger, to the league, the NCBA. Export a spreadsheet in the NCBA's expected format from the disparate tables stored in GameChanger."
