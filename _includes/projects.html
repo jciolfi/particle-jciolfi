@@ -5,8 +5,13 @@
 
 <script>
 // Fetch the JSON file
-fetch('/assets/data/projects.json')
-  .then(response => response.json())
+fetch('{{site.projects_json}}')
+  .then(response => {
+    if (!response.ok) {
+        throw new Error("Could not find projects.json. Unable to list projects.");
+    }
+    return response.json();
+  })
   .then(data => {
     // Create a new container element
     const section = document.getElementById('projects');
@@ -71,6 +76,6 @@ fetch('/assets/data/projects.json')
     });
   })
   .catch(error => {
-    console.error('Error:', error);
+    console.error('Error: ', error);
   });
 </script>
