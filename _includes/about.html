@@ -1,9 +1,9 @@
  <div class="user-details">
   <h1> About Me </h1>
-  <p> {{site.user_description}} </p>
+  <p id="user-desc"></p>
 </div>
-  <div class="user">
-    <div class="tech">
+<div id="about-details" class="user">
+    <!-- <div class="tech">
       <h2>Languages</h2>
       <i class="devicon-java-plain-wordmark colored"></i>
       <i class="devicon-python-plain-wordmark colored"></i>
@@ -23,5 +23,48 @@
       <i class="devicon-ssh-plain-wordmark colored"></i>
       <i class="devicon-docker-plain-wordmark colored"></i>
       <p>My graduate studies have been centered around computer networks and cybersecurity. Some studies include packet inspection, exploits, and vulnerabilities.</p>
-    </div>
+    </div> -->
 </div>
+
+<script>
+    fetch('{{site.about_json}}')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error("Could not find about.json. Unable to list user details");
+        }
+        return response.json();
+    })
+    .then(data => {
+        const user_description = document.getElementById('user-desc');
+        user_description.textContent = data.desc;
+
+        const section = document.getElementById('about-details');
+        const details = data.user;
+
+        details.forEach(item => {
+            const itemContainer = document.createElement('div');
+            itemContainer.className = 'tech';
+
+            const title = document.createElement('h2');
+            title.textContent = item.title;
+            itemContainer.appendChild(title);
+
+            const icons = item.icons;
+            icons.forEach(icon => {
+                const iconView = document.createElement('i');
+                iconView.className = icon;
+                itemContainer.appendChild(iconView);
+            });
+
+            const description = document.createElement('p');
+            description.textContent = item.desc;
+            itemContainer.appendChild(description);
+
+            section.appendChild(itemContainer);
+        });
+    })
+    .catch(error => {
+        console.error('Error: ', error);
+    });
+</script>
+
